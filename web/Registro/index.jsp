@@ -9,9 +9,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" href="../css/loginStyle.css">
         <title>Registro</title>
     </head>
     <body>
+        <div class="login-box">
         <h1>Registrarse</h1>
         <form action="../Registrarse" method="POST" >
             <label>Nombre de Usuario:</label>
@@ -23,7 +25,7 @@
             <br>
             <br>
             <label>Correo Electronico:</label>
-            <input type="email" name="txtEmail" required>
+            <input type="text" name="txtEmail" required>
             <br>
             <br>
             <label>Password:</label>
@@ -36,5 +38,6 @@
         <br>
         <br>
         <a href="../index.jsp">Ir al Inicio</a>
+        </div>
     </body>
 </html>

@@ -5,7 +5,7 @@ body {
     background-color: #000;
     font-family: sans-serif;
     height: 100vh;
-   /* background: url(../img/FondoLogin.jpg) center top;*/
+    background: black;
   }
 
   .row::after{
@@ -13,16 +13,6 @@ body {
     clear: both;
     display: table;
 }
-
-/*button{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: orange;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-}*/
 
     div p{
         text-align: justify
@@ -163,7 +153,7 @@ body {
 
     body{
         background-size: cover; 
-        background: url(../img/FondoLogin.jpg) center top;
+        background: url(../img/nileocre.jpeg) no-repeat center top;
     }
 
 
