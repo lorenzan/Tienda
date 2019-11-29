@@ -19,13 +19,38 @@ body{
   text-align: center;
   text-decoration: none;
   color: white;
-}
+ }
+ 
+  .button2{
+      display: block;
+  width: 25%;
+  padding: 15px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background:#E84C3D;
+  text-align: center;
+  text-decoration: none;
+  color: white;  
+  }
+   
+  button2:hover {
+    cursor: pointer;
+    background: rgb(27, 49, 61);
+    color: white;
+  }
+  
+
    button:hover {
     cursor: pointer;
     background: rgb(27, 49, 61);
     color: white;
   }
   
+  .caja{
+      width: 50%;
+      text-align: left;
+
+  }
   
   @media only screen and (min-width: 600px){/*tablet*/
     .col-t-1{width: 8.33%;}

@@ -6,7 +6,7 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="../css/loginIndex.css">
+       <link rel="stylesheet" href="../css/filtro.css">
     </head>
 <%
     ///Instanciamos nuestra variable de sesion
@@ -34,7 +34,7 @@
 %>
 
 <center>
-    <div class="">
+    <div class="caja">
     <form method="get" action="../DeleteCart">
         <input type="hidden" name="idCarrito" value="<%=p.getIdProducto()%>">
         <strong><%=p.getProducto()%></strong>
@@ -43,7 +43,7 @@
         <p>Precio Total : $<%= Math.round(p.getPrecio() * a.getCantidad())%></p>
         <p>Cantidad : <%=a.getCantidad()%></p>
         <img  width="75px" height="50px "src="<%=p.getImg()%>">
-        <button type="submit">Eliminar del Carrito</button>
+        <button class="button2" type="submit">Eliminar del Carrito</button>
     </form>
         </div>
    
