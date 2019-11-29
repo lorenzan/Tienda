@@ -2,7 +2,7 @@
 <br/>
 <hr/>
 <center>
-    <footer>Todos los derechos reservados&REG; Designed by: 2019</footer>
+    <footer>Todos los derechos reservados&REG; Designed by: The Wicks</footer>
 </center>
 </body>
 </html>
