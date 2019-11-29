@@ -2,6 +2,10 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="Categoria.Categoria"%>
 <%@include file="Top.jsp" %>
+<head>
+    <link rel="stylesheet" href="css/filtro.css">
+</head>
+
 <%
     ///Creamos una lista de categorias, la cual recibiran las categorias de la BD
     ArrayList<Categoria> cat = new ArrayList<Categoria>();
@@ -16,6 +20,7 @@
 <center>
     <form method="get" action="<%=request.getContextPath()%>/Category">
         <input type="hidden" name="Categoria" value="<%=cat.get(i).getIdCategoria()%>">
+        <img src="../img/LOGOnop.png">
         <button type="submit"><%=cat.get(i).getCategoria()%></button>
     </form>
 </center>
