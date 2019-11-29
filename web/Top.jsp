@@ -38,21 +38,21 @@
                 </div></a>
                 <%--Validamos si existe una sesion--%>
                 <%if (session.getAttribute("Usuario") == null) {%>
-            <a style="float: right; margin-right: 10px " href="http://localhost:<%=port%>/Tienda/Login/">
+            <a style="float: right; margin-right: 0px " href="http://localhost:<%=port%>/Tienda/Login/">
                 <div class="contenedor" id="cinco">
                     <img class="icon" src="icon/icon3.png">
                     <p class="texto">Iniciar Sesion</p></div></a>
-            <a style="float: right; margin-right: 10px " href="http://localhost:<%=port%>/Tienda/Registro/" >
+            <a style="float: right; margin-right: 0px " href="http://localhost:<%=port%>/Tienda/Registro/" >
                 <div class="contenedor" id="seis">
                     <img class="icon" src="icon/icon3.png">
                     <p class="texto">Registrarse</p></div></a>
                     <%} else {%>
                     <%--Si existe---%>
-            <a style="float: right; margin-right: 10px " href="http://localhost:<%=port%>/Tienda/CerrarSesion">
+            <a style="float: right; margin-right: 0px " href="http://localhost:<%=port%>/Tienda/CerrarSesion">
                 <div class="contenedor" id="siete">
                     <img class="icon" src="icon/icon3.png">
                     <p class="texto">Cerrar Sesion</p></div></a>
-            <a style="float: right; margin-right: 10px " href="#">
+            <a style="float: right; margin-right: 0px " href="#">
                 <div class="contenedor" id="ocho">
                     <img class="icon" src="icon/icon3.png">
                     <p class="texto"><%=user.getNombre()%></p></div></a>
