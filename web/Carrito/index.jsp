@@ -3,6 +3,11 @@
 <%@page import="Articulo.Articulo"%>
 <%@page import="java.util.ArrayList"%>
 <%@include file="../Top.jsp" %>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../css/loginIndex.css">
+    </head>
 <%
     ///Instanciamos nuestra variable de sesion
     HttpSession sesion = request.getSession(true);
@@ -27,7 +32,9 @@
             ///que el id de la lista articulos nos trae el articulo
             total += a.getCantidad() * p.getPrecio();
 %>
+
 <center>
+    <div class="">
     <form method="get" action="../DeleteCart">
         <input type="hidden" name="idCarrito" value="<%=p.getIdProducto()%>">
         <strong><%=p.getProducto()%></strong>
@@ -38,8 +45,10 @@
         <img  width="75px" height="50px "src="<%=p.getImg()%>">
         <button type="submit">Eliminar del Carrito</button>
     </form>
+        </div>
    
 </center>
+        
 <br/>
 
 <%}///Hacemos una validacion si el Carrito de Compras viene vacio%>
