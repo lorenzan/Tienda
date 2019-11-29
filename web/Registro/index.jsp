@@ -1,7 +1,6 @@
 <%-- 
     Document   : index
     Created on : 24-nov-2019, 12:01:41
-    Author     : César
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

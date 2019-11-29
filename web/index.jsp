@@ -17,13 +17,15 @@
 <!--Recorremos la lista de las Categorias-->
 <%for (int i = 0; i < cat.size(); i++) {%>
 <!--Enviamos el id para mostrar las subcategorias -->
-<center>
+<div>
+    <center>
     <form method="get" action="<%=request.getContextPath()%>/Category">
         <input type="hidden" name="Categoria" value="<%=cat.get(i).getIdCategoria()%>">
         <img src="../img/LOGOnop.png">
         <button type="submit"><%=cat.get(i).getCategoria()%></button>
     </form>
 </center>
+</div>
 <br>
 <br>
 <%}%>
